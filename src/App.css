@@ -1,5 +1,5 @@
 body {
-    background: #f3f3f3;
+    background: #1a1414;
     text-align: center;
 }
 .App {
@@ -76,4 +76,11 @@ textarea {
     width: 98%;
     min-height: 100px;
     max-height: 150px;
+}
+
+textarea.a  {
+    width:100%;
+    resize: none;
+    min-height: 50px;
+    min-width: 50px;
 }
