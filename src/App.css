@@ -77,10 +77,3 @@ textarea {
     min-height: 100px;
     max-height: 150px;
 }
-
-textarea.a  {
-    width:100%;
-    resize: none;
-    min-height: 50px;
-    min-width: 50px;
-}
