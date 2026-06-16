@@ -62,7 +62,9 @@ function App() {
 
     return (
         <div className="App">
-            <button>Click Me</button>
+            <button variant="primary">
+                ClickMe
+            </button>
             <h1>User Form</h1>
             <fieldset>
                 <form action="#" method="get">
