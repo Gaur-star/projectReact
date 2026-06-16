@@ -1,6 +1,6 @@
 import "./App.css";
 import { React, useState } from "react";
-import { Button } from "bootstrap";
+import { Button } from "react-bootstrap";
 
 function App() {
     const [firstName, setFirstName] = useState("");
@@ -62,9 +62,9 @@ function App() {
 
     return (
         <div className="App">
-            <button variant="primary">
+            <Button variant="primary">
                 ClickMe
-            </button>
+            </Button>
             <h1>User Form</h1>
             <fieldset>
                 <form action="#" method="get">
