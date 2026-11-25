@@ -63,22 +63,6 @@ function Login() {
                                         />
                                     </div>
 
-                                    {/* Remember me */}
-                                    <div className="mb-3 form-check">
-                                        <input
-                                            type="checkbox"
-                                            className="form-check-input"
-                                            id="remember"
-                                        />
-
-                                        <label
-                                            className="form-check-label"
-                                            htmlFor="remember"
-                                        >
-                                            Remember me
-                                        </label>
-                                    </div>
-
                                     {/* Login button */}
                                     <button
                                         type="submit"
