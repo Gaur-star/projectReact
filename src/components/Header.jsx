@@ -1,8 +1,22 @@
-import React from "react";
+import {useState} from "react";
 
 const Header = () => {
-    return( 
-        <h1>U R In header page</h1>
+    const [name, setName] = useState("career");
+    const nameHandle = (e)=>{
+        setName(e.target.value);
+    }
+    return(
+        <>
+            <h1>U R In header page</h1>
+            <input 
+                type="text"
+                value={name}               
+                onChange={nameHandle}
+                
+            />
+         <h2>{name}</h2>
+        </> 
+        
     );
 }
 
